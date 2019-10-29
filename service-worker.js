@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sat-api-pg-swagger/precache-manifest.a79021eb510de1de1c89bbb4a230c594.js"
+  "/sat-api-pg-swagger/precache-manifest.8f9fa0d339b083a444e9eb43d588f70f.js"
 );
 
 self.addEventListener('message', (event) => {
