@@ -1,13 +1,9 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-// import './index.css';
-// import App from './App';
 import * as serviceWorker from './serviceWorker';
 import SwaggerUI from 'swagger-ui';
 import 'swagger-ui/dist/swagger-ui.css';
 SwaggerUI({
   dom_id: '#root',
-  url: 'https://raw.githubusercontent.com/radiantearth/stac-spec/master/api-spec/STAC.yaml'
+  url: 'http://localhost:3001/api.yaml'
 })
 // ReactDOM.render(<App />, document.getElementById('root'));
 
